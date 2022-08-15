@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/49102b9949.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
+    <title>Proyecto 1 - Blog</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR = LOGO+NOSOTROS+CONTACTO+SUBS+LOGIN -->
+    <nav class="navbar navbar-expand-lg bg-gray-dark">
+      <div class="container-fluid d-flex">
+          <a class="navbar-brand pt-3" href="index.html">
+              <h2>ROLLINGAMES</h2>
+          </a>
+          <!-- <button class="navbar-toggler bg-info" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">HOLA</span>
+          </button> -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active text-white text-decoration-none text-uppercase font-weight-bolder mx-2" aria-current="page" href="./nosotros.html" target="_blank">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white text-decoration-none text-uppercase font-weight-bolder mx-2" href="./contacto.html" target="_blank">CONTACTO</a>
+                  </li>
+                  <li class="nav-item">
+                      <!-- <a class="nav-link text-white text-decoration-none text-uppercase font-weight-bolder mx-2" href="#modal-suscripcion">SUBSCRIPCIÓN</a> -->
+                      <a class="nav-link text-white text-decoration-none text-uppercase font-weight-bolder mx-2" href="" target="_blank">SUSCRIPCION</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white text-decoration-none text-uppercase font-weight-bolder mx-2" aria-current="page" href="./login2.html">LOGIN</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <!-- CAROUSEL JUEGOS -->
+  <section class="container">
+    <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="3"></li>
+        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/slider-games/cuphead-5083994.jpg" class="d-block w-100 imgcarousel" alt="Slide 1">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5>CUPHEAD</h5>
+            <p>¡Juega como Cuphead o Mugman (en modo de un solo jugador o de operación conjunta local) a medida que atraviesas mundos extraños, aprende súper movimientos poderosos y descubre secretos ocultos mientras que intentas pagarle tu deuda al demonio!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slider-games/FYs9larWIAUgvmG.jpg" class="d-block w-100 imgcarousel" alt="Slide 2">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5>FORZA MOTORSPORT</h5>
+            <p>Es un videojuego de carreras desarrollado por Turn 10 Studios y publicado por Microsoft para el sistema de juegos Xbox (lo cual significa que quizá pronto lo veremos en plataformas de streaming)</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slider-games/fall_guys_ultimate_knockout-4898534.jpg" class="d-block w-100 imgcarousel" alt="Slide 3">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5>FALL GUYS</h5>
+            <p>Fall Guys es un videojuego de plataformas y battle royale desarrollado por Mediatonic y publicado inicialmente por Devolver Digital y más tarde por Epic Games. Fue anunciado en la E3 2019​ y fue lanzado para Windows y PlayStation 4 el 4 de agosto del 2020</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slider-games/fifa_23-5709196.jpg" class="d-block w-100 imgcarousel" alt="Slide 4">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5>EA FIFA23</h5>
+            <p>FIFA 23 es un próximo videojuego de simulación de fútbol publicado por Electronic Arts. Es la trigésima y última entrega de la serie FIFA, y se lanzará en todo el mundo el 30 de septiembre de 2022 para PC, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S y Google Stadia.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slider-games/call_of_duty_warzone-5101142.jpg" class="d-block w-100 imgcarousel" alt="Slide 5">
+          <div class="carousel-caption d-none d-sm-block">
+            <h5>COD WARZONE</h5>
+            <p>Call of Duty: Warzone es un videojuego de disparos en primera persona, perteneciente al género Battle royale gratuito, lanzado el 10 de marzo de 2020 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S y Microsoft Windows.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </section>
+    <!-- CUERPO DE DOS COLUMNAS -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- PRIMERA COLUMNA = CONTENIDO CARDS JUEGOS -->
+        <div class="col">
+          <h2 class="text-center m-4">Entradas del blog</h2>
+          <div class="container-fluid d-flex justify-content-around">
+            <div class="row">
+              <div class="col">
+                <div class="card size-card mx-auto my-3" style="width: 18rem">
+                  <img
+                    src="./assets/img/card-games/pexels-pixabay-209679.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Luigi's Mansion 3</h5>
+                    <p class="card-text mb-4">
+                      Descubre a fondo la nueva aventura fantasmagórica Luigi's
+                      Mansion 3 en este video.
+                    </p>
+                    <a href="./luigi-card.html" class="btn more-button"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <div class="card size-card mx-auto my-3" style="width: 18rem">
+                  <img
+                    src="./assets/img/card-games/pexels-vanessa-loring-7869443.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Realidad Virtual</h5>
+                    <p class="card-text mb-4">
+                      PlayStation VR2 apunta alto con una tecnología que sigue
+                      el movimiento de los ojos.
+                    </p>
+                    <a href="./vr-card.html" class="btn more-button">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card size-card mx-auto my-3" style="width: 18rem">
+                  <img
+                    src="./assets/img/card-games/pexels-joseph-redfield-2883028.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Recomendados</h5>
+                    <p class="card-text mb-4">
+                      Selección de juegos para tu móvil. Estrategia, quizz,
+                      puzles y aventura para tu móvil iOS o Android.
+                    </p>
+                    <a href="./recomendados-card.html" class="btn more-button"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <div class="card size-card mx-auto my-3" style="width: 18rem">
+                  <img
+                    src="./assets/img/card-games/ryan-quintal-Rt0fXXXvf4w-unsplash.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Street Fighter</h5>
+                    <p class="card-text mb-4">
+                      Street Fighter 6 anuncia dos nuevos personajes con detalles de los luchadores.
+                    </p>
+                    <a href="./street-fighter-card.html" class="btn more-button"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SEGUNDA COLUMNA = SECCION BUSQUEDA + PUBLICIDAD -->
+        <div class="col col-xl-6 col-sm-12">
+          <h2 class="text-center m-4">Categorias</h2>
+          <div class="container">
+            <!-- Form busqueda -->
+            <form action="">
+              <input
+                type="search"
+                name="text"
+                class="input d-block"
+                placeholder="Búsqueda por categoría"
+              />
+            </form>
+            <!-- Publicidad -->
+            <div class="container-fluid d-none d-md-block">
+              <div class="container-fluid my-5">
+                <div
+                  id="carouselExampleSlidesOnly"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="https://www.telcel.com/content/dam/telcelcom/entretenimiento/gaming/02_GAMING%20CAMPA%C3%91A%202021%20TCA%20BANNERS%20ADICIONALES_OCTUBRE_TWITCH_640x320.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/07/game-2759159.jpg?itok=Z-mjNKDB"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://inter.hn/storage/app/uploads/public/5f4/d31/e32/5f4d31e32238c873564406.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid my-5">
+                <div
+                  id="carouselExampleSlidesOnly"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="https://s3.amazonaws.com/wpfiles.senderogamer.com/wp-content/uploads/2018/03/22131412/Sin-t%C3%ADtulo-11-820x431.png"
+                        class="d-block w-100 h-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://www.webretail.com.ar/v2/wp-content/uploads/2022/02/Coca-Cola-lanza-la-promocion-Destapa-y-Gana-con-mas-de-15-millones-de-premios.jpg"
+                        class="d-block w-100 h-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://www.asusbymacman.es/img/cms/banner_GG_Bundle_Standard1.jpg"
+                        class="d-block w-100 h-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+    <div class="container-fluid mt-3 text-center">
+      <div class="row d-flex">
+        <div class="col m-auto d-sm-block">
+          <a href="#"
+            ><img
+              src="https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-8.png"
+              alt="Logo"
+          /></a>
+        </div>
+        <div class="col text-center m-auto d-none d-md-block">
+          <a href="" class="a-links">Terminos y condiciones</a>
+          <p class="m-1">Rolling-Code&reg; - Todos los derechos reservados</p>
+        </div>
+        <div class="col m-3">
+          <h5 class="text-uppercase mb-3 h5-redes">Nuestras Redes</h5>
+          <div class="container d-flex"></div>
+          <ul
+            class="list-group list-group-flush flex-row flex-ms-column p-2 justify-content-around"
+          >
+            <a href="#" class="a-links a-social a-social-twitter"
+              ><i class="fa-brands fa-twitter fs-3"></i
+            ></a>
+            <a href="#" class="a-links a-social a-social-facebook"
+              ><i class="fa-brands fa-facebook fs-3"></i
+            ></a>
+            <a href="#" class="a-links a-social a-social-instagram"
+              ><i class="fa-brands fa-instagram fs-3"></i
+            ></a>
+            <a href="#" class="a-links a-social a-social-whatsapp"
+              ><i class="fa-brands fa-whatsapp fs-3"></i
+            ></a>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </footer>
+      <!-- Modal Suscripcion -->
+      <section id="modal-suscripcion">
+      <div class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

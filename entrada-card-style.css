@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #7542b3, #6a49ba, #5d50c1, #4e57c7, #3a5dcc, #2d64cf, #1c6bd2, #0071d4, #007ad4, #0082d3, #0089d1, #0090ce);
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    margin: 1em;
+}
+p, h3 {
+    font-family: 'DM Sans', sans-serif;
+    margin: 1.7rem;
+}
+p {
+    font-size: 17px;
+}
+.iconosRedes{
+    position: fixed;
+    top: 200px;
+}
+.bgfooter{
+    background-color: #7542b3;
+    opacity: 10;
+}
