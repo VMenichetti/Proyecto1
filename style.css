@@ -37,6 +37,7 @@
 .more-button {
   color: #f0ffff;
   background-color: rgb(37, 36, 36);
+  padding: 13px;
 }
 .more-button:hover {
   transform: scale(1.1);
