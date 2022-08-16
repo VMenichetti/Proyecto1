@@ -8,17 +8,15 @@ p {font-size: 2em;}
 
 body {
     margin: 0%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(31, 25, 25);
 }
 .container {
     max-width: 1400px;
     margin: auto;
     
 }
-header {
-    color: aliceblue;
-    background-color: rgb(0, 0, 0);
-}
+
 header .logo {
     margin: 0;
     padding: 25px 30px;
@@ -101,6 +99,29 @@ max-width: 1400px;
     display: none;
 }
 
-    
+    /* footer */
 
+
+    .a-links {
+        text-decoration: none;
+        font-family: "Press Start 2P", cursive;
+        font-size: 14px;
+      }
+      
+      .a-social-twitter {
+        color: #1d9bf0;
+      }
+      .a-social-facebook {
+        color: #0778e8;
+      }
+      .a-social-instagram {
+        color: #c437b6;
+      }
+      .a-social-whatsapp {
+        color: #00e676;
+      }
+      .a-social:hover {
+        color: black;
+      }
+      
 

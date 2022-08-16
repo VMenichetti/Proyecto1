@@ -1,329 +1,328 @@
-
-.bg-gray-dark{
-    background-color: rgb(4, 40, 47);
+.bg-gray-dark {
+  background-color: rgb(4, 40, 47);
 }
-.navbar-nav a:hover{
-    background-color: rgb(4 40 47);
-    border-radius: 8px;
+.navbar-nav a:hover {
+  background-color: rgb(4 40 47);
+  border-radius: 8px;
 }
 .a-links {
-    text-decoration: none;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
 }
 
-.a-social-twitter{
-    color: #1d9bf0;
+.a-social-twitter {
+  color: #1d9bf0;
 }
-.a-social-facebook{
-    color: #0778e8;
+.a-social-facebook {
+  color: #0778e8;
 }
-.a-social-instagram{
-    color: #c437b6;
+.a-social-instagram {
+  color: #c437b6;
 }
-.a-social-whatsapp{
-    color: #00e676;
+.a-social-whatsapp {
+  color: #00e676;
 }
 .a-social:hover {
-    color: black;
+  color: black;
 }
 
 /* cards */
 .card-title {
-    font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 .size-card {
-    margin-bottom: 15px;
-
+  margin-bottom: 15px;
 }
 .more-button {
-    color: #f0ffff;
-    background-color: rgb(37, 36, 36);
+  color: #f0ffff;
+  background-color: rgb(37, 36, 36);
 }
 .more-button:hover {
-    transform: scale(1.1);
-    color: #f0ffff;
+  transform: scale(1.1);
+  color: #f0ffff;
 }
 
 #carouselExampleInterval {
-    z-index: 99;
+  z-index: 99;
 }
 
 /* Fuentes */
 
-h2, .h5-redes {
-    font-family: 'Press Start 2P', cursive;
-    text-transform: uppercase;
+h2,
+.h5-redes {
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
 }
 
 /* input search */
 
 .input {
-    background-color: #383838;
-    border: 1ex solid none;
-    border-top-width: 1.7em;
-    margin: 0;
-    padding: 0;
-    color: #383838;
-    word-wrap: break-word;
-    outline: 7px solid #383838;
-    height: 30px;
-    font-size: 17px;
-    text-align: center;
-    transition: all 1s;
-    width: 100%;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-   }
-   
-   .input:hover {
-    border-top-width: 0.2em;
-    background-color: #f1e8e8;
-   }
-   
-   .input:focus {
-    border-top-width: 0.2em;
-    background-color: #f1e8e8;
-   }
-   /* Carousel */
-   .imgcarousel{
-    height: 700px;
-   }
+  background-color: #383838;
+  border: 1ex solid none;
+  border-top-width: 1.7em;
+  margin: 0;
+  padding: 0;
+  color: #383838;
+  word-wrap: break-word;
+  outline: 7px solid #383838;
+  height: 30px;
+  font-size: 17px;
+  text-align: center;
+  transition: all 1s;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
 
-   /* CONTACTO */
-   #exampleFormControlTextarea1 {
-    resize: none;
+.input:hover {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+}
+
+.input:focus {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+}
+/* Carousel */
+.imgcarousel {
+  height: 700px;
+}
+
+/* CONTACTO */
+#exampleFormControlTextarea1 {
+  resize: none;
 }
 .main {
-    display: flex;
-    padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border:solid snow ;
-    }
+  display: flex;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: solid snow;
+}
 
-    .body {
-        background-color: black;
-    }
+.body {
+  background-color: black;
+}
 
 .fondo {
-    padding: 200px;
-    width: 3500px;
-    height: 2333px;
-    background-image: url(https://cdn.pixabay.com/photo/2018/04/11/17/11/background-3311042_960_720.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-   }
+  padding: 200px;
+  width: 3500px;
+  height: 2333px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/04/11/17/11/background-3311042_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .formulario {
-        border: 10px solid ;
+  border: 10px solid;
 }
 
 .mapa {
-
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .map {
-    border: solid black;
-    border: 20px;
+  border: solid black;
+  border: 20px;
 }
 
 .button {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* LOGIN CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-    --login-bg:#f8f3ff;
-    --title-bg: #9089cc;
-    --button-bg: #674baf;
-    --light-pink: #e882e8;
-    --image-bg:  #eadbff ;
+  --login-bg: #f8f3ff;
+  --title-bg: #9089cc;
+  --button-bg: #674baf;
+  --light-pink: #e882e8;
+  --image-bg: #eadbff;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .login-container {
-    height: 43.75em;
-    width: 60em;
-    margin: 6em auto;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
+  height: 43.75em;
+  width: 60em;
+  margin: 6em auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .login-info-container {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 0.5rem;
-    background-color: var(--login-bg);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: var(--login-bg);
 }
 
 .image-container {
-    padding: 2rem;
-    width: 50%;
-    background-color: var(--image-bg);
-    box-sizing: border-box;
+  padding: 2rem;
+  width: 50%;
+  background-color: var(--image-bg);
+  box-sizing: border-box;
 }
 
 .title {
-    text-transform: capitalize;
-    font-size: 2.25rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: var(--title-bg);
+  text-transform: capitalize;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--title-bg);
 }
 
 .social-login {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .social-login-element {
-    width: 12.5rem;
-    height: 3.75rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    border-radius: 5px;
-    border: 1px solid var(--button-bg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 12.5rem;
+  height: 3.75rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  border: 1px solid var(--button-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-login-element img {
-    width: 1.875rem;
-    height: 1.875rem;
-    position: relative;
-    top: 0;
-    left: -0.625rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  position: relative;
+  top: 0;
+  left: -0.625rem;
 }
 
 .social-login-element:hover {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .login-info-container > p {
-    font-size: 1.25em;
-    margin-top: 1.5em;
+  font-size: 1.25em;
+  margin-top: 1.5em;
 }
 
 .inputs-container {
-    height: 55%;
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  height: 55%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.input, .btn {
-    width: 90%;
-    height: 3.125rem;
-    font-size: 1em;
+.input,
+.btn {
+  width: 90%;
+  height: 3.125rem;
+  font-size: 1em;
 }
 
 .input {
-    padding-left: 20px;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    box-sizing: border-box;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-sizing: border-box;
 }
 
 .input:hover {
-    border: 2px solid var(--button-bg);
+  border: 2px solid var(--button-bg);
 }
 
 .btn {
-    width: 100%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: white;
-    border: none;
-    border-radius: 45px;
-    cursor: pointer;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
 }
 
 .inputs-container p {
-    margin: 0;
+  margin: 0;
 }
 
 .span {
-    color: var(--light-pink);
-    font-weight: 600;
-    cursor: pointer;
+  color: var(--light-pink);
+  font-weight: 600;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
-    .login-container {
-        width: 70%;
-        margin-top: 3rem;
-    }
-    .login-info-container {
-        width: 100%;
-        border-radius: 5px;
-    }
-    
-    .image-container {
-        display: none;
-    }  
+  .login-container {
+    width: 70%;
+    margin-top: 3rem;
+  }
+  .login-info-container {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .image-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .login-container {
-        width: 90%;
-    }
+  .login-container {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .login-container {
-        height: 90%;
-    }
+  .login-container {
+    height: 90%;
+  }
 
-    .social-login {
-        flex-direction: column;
-        align-items: center;
-        height: 30%;
-    }
+  .social-login {
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+  }
 
-    .login-info-container > p {
-        margin: 0;
-    }
+  .login-info-container > p {
+    margin: 0;
+  }
 }
 
 .btn-login {
-    margin-top: 8px;
-    background-color: var(--button-bg);
+  margin-top: 8px;
+  background-color: var(--button-bg);
 }
 
 .btn-suscripcion {
-    background-color: #04282f;
+  background-color: #04282f;
 }
 
 .button-navbar {
-    background-color: #04282f;
-    border: #04282f;
+  background-color: #04282f;
+  border: #04282f;
 }
 
 .button-subs {
-    margin: 0 8px;
-    padding: 8px;
+  margin: 0 8px;
+  padding: 8px;
 }
