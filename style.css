@@ -3,7 +3,7 @@
     background-color: rgb(4, 40, 47);
 }
 .navbar-nav a:hover{
-    background-color: rgb(29, 85, 238);
+    background-color: rgb(4 40 47);
     border-radius: 8px;
 }
 .a-links {
@@ -148,7 +148,6 @@ h2, .h5-redes {
 }
 
 body {
-    height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
@@ -254,13 +253,12 @@ body {
 }
 
 .btn {
-    width: 80%;
+    width: 100%;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
     border: none;
-    border-radius: 5px;
-    background-color: #383838;
+    border-radius: 45px;
     cursor: pointer;
 }
 
@@ -318,4 +316,14 @@ body {
 
 .btn-suscripcion {
     background-color: #04282f;
+}
+
+.button-navbar {
+    background-color: #04282f;
+    border: #04282f;
+}
+
+.button-subs {
+    margin: 0 8px;
+    padding: 8px;
 }
